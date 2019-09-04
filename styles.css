@@ -1,0 +1,150 @@
+
+/* pie chart */
+.chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* pie chart */
+.main-piechart {
+    width: 50%;
+    float: right; 
+}
+/* main result table */
+.main-result-table  {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+.full-report-table-left {
+    padding-top:40px;
+    float: left;
+    padding-left: 15px;
+    width: 45%;
+}
+.full-report-table-right {
+    padding-top:40px;
+    padding-right: 15px;
+    float: right;
+    width: 45%;
+}
+/* summary table */
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#dddddd;
+}
+.tg td {
+    height: 25px;
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    padding:1px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#dddddd;
+    color:#444;
+}
+.tg tr:nth-child(even) {
+    background-color: #dddddd;
+    }
+.tg th {
+    height: 25px;
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    padding:1px 2px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    background-color:#000f2b;
+    font-weight:bold;
+    color:#ffffff;
+    border-color:#dddddd;
+    text-align:left;
+}
+
+
+/* body */
+.content {
+font-family:Arial, sans-serif; 
+background-color: #f8f8f8;
+font-size: 12px;
+}
+.nav-div {
+    height:50px; 
+    background-color: #000000; 
+    line-height: 50px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* top navigation */
+.nav-links {
+float:right; 
+color:white; 
+padding-right: 10px; 
+padding-left: 10px; 
+font-size: 12px; 
+font-weight:bold;
+text-decoration: none;
+}
+/* exchange logo in navigation */
+.hilton-logo {
+width:110px;
+height:50px; 
+float:left;
+padding-left: 10px
+}
+.footer-div {
+    height:30px; 
+    background-color: #000000; 
+    line-height: 30px;
+}
+.footer-tag-line {
+    float:right;
+    font-size: 12px;
+    color:white;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 1px
+}
+.sticky {
+position: fixed;
+top: 20px;
+width: 100%;
+padding-top: 102px
+}
+.full-report-table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+.full-report-table th {
+border: 1px solid #dddddd;
+text-align: left;
+height: 20px;
+}
+.full-report-table td {
+border: 1px solid #dddddd;
+text-align: left;
+}
+.full-report-table tr:nth-child(even) {
+background-color: #dddddd;
+}
+.row-pass {
+    color:green;
+}
+.row-fail {
+    color:red;
+}
+.div {
+    content: "";
+    border: solid 1px #ff0000;
+
+    display: table;
+}
