@@ -1,1 +1,263 @@
-hello
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>HILTON - DNA</title>
+    <!-- external css sheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- google javascript -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript"src="google-charts.js"></script>
+    <script type="text/javascript"src="functions.js"></script>
+
+    <script>
+    </script>
+  </head>
+  
+  <body class="content">
+    <!-- navigation -->
+    <div class="nav-div">
+      <image src="hilton-logo.png" class="hilton-logo"></image>
+      <a href="failures.html" class="nav-links">Failures</a>
+      <a href="full-report.html" class="nav-links">Full Report</a>
+      <a href="index.html" class="nav-links">Summary</a>
+    </div>
+    <br>
+
+    <h1 align="center" style="font-size: 16px"><!--report-title--></h1>
+    <hr style="width: 500px"><br>
+    <div class="table-chart-container">
+
+      <!-- piechart div -->
+      <div align="center", id="piechart" class="main-piechart chart"></div>
+      <!-- table div -->
+      <div class="main-result-table">
+          <div style="overflow: hidden">
+            <h1 style="font-size: 14px; float:left">Summary - MSTR TO TABLEAU</h1>
+            <button style="height: 20px; float:right" onclick="document.getElementById('link').click()">Download Full Report!</button>
+            <a id="link" href="summary-report.csv" download hidden></a>
+          </div>
+
+        <table class="tg">
+        <colgroup>
+        <col style="width: 364px">
+        <col style="width: 120px">
+        <col style="width: 120px">
+        <col style="width: 110px">
+        </colgroup>
+          <tr>
+            <th class="tg-lqi1">Metrics</th>
+            <th class="tg-lqi1">Micro Strategy</th>
+            <th class="tg-lqi1">Tableau</th>
+            <th class="tg-lqi1">Match %</th>
+          </tr>
+          <tr>
+            <td class="tg-kkli">Hotel Count</td>
+            <td class="tg-kkli">3000</td>
+            <td class="tg-kkli">2999</td>
+            <td class="tg-kkli">99.99</td>
+          </tr>
+          <tr>
+            <td class="tg-vdja">Quadrant</td>
+            <td class="tg-vdja">17</td>
+            <td class="tg-vdja">18</td>
+            <td class="tg-vdja">94.74</td>
+          </tr>
+          <tr>
+            <td class="tg-vdja">Occupancy Index</td>
+            <td class="tg-vdja">17</td>
+            <td class="tg-vdja">18</td>
+            <td class="tg-vdja">94.74</td>
+          </tr>
+          <tr>
+            <td class="tg-kkli">YOY Occupancy Index</td>
+            <td class="tg-kkli">19</td>
+            <td class="tg-kkli">18</td>
+            <td class="tg-kkli">94.74</td>
+          </tr>
+          <tr>
+            <td class="tg-vdja">Average Daily Rate Index</td>
+            <td class="tg-vdja">19</td>
+            <td class="tg-vdja">19</td>
+            <td class="tg-vdja">100.00</td>
+          </tr>
+          <tr>
+            <td class="tg-kkli">YOY Average Daily Rate Index</td>
+            <td class="tg-kkli">19</td>
+            <td class="tg-kkli">19</td>
+            <td class="tg-kkli">100.00</td>
+          </tr>
+          <tr>
+            <td class="tg-vdja">Revenue/Available Room Index</td>
+            <td class="tg-vdja">19</td>
+            <td class="tg-vdja">15</td>
+            <td class="tg-vdja">78.95</td>
+          </tr>
+          <tr>
+            <td class="tg-kkli">YOY Revenue/Available Room Index</td>
+            <td class="tg-kkli">19</td>
+            <td class="tg-kkli">19</td>
+            <td class="tg-kkli">100.00</td>
+          </tr>
+          <tr>
+            <td class="tg-vdja">Revenue/Available Room Impact</td>
+            <td class="tg-vdja">19</td>
+            <td class="tg-vdja">17</td>
+            <td class="tg-vdja">89.47</td>
+          </tr>
+          <tr>
+            <td class="tg-lqi1">TOTAL</td>
+            <td class="tg-vdja">323</td>
+            <td class="tg-vdja">305</td>
+            <td class="tg-vdja">94.43</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br>
+    <!-- space for the horizontal line -->
+    <div style="margin-top:400px"></div>
+    <hr>
+
+    <div>
+      <h1 style="font-size: 14px">Reports</h1>
+      <p>
+        Select the link in the top navigation for Summary (Summary of the full report), 
+        Full Report (Details report for each row validation), 
+        Split (Split for each indicator), or Failures (All the failures for all indicators)
+      <ul>
+        <li><b>Summary:</b> Outline report for the Data Validation Framework including total number for each indicator and all indicators combined</li>
+        <li><b>Full Report:</b> Detailed report for the full execution for all indicators, all failures are highlighted in Residential</li>
+        <li><b>Split Report:</b> Individual report for each indicator, click on the indicator to view specific report on page</li>
+        <li><b>Failures:</b> All the data sets which failed the validation during the execution</li>
+      </ul>
+      </p>
+      
+    </div>
+
+
+
+    <!-- delete from here -->
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+    <p>
+        This is a test
+    </p>
+
+
+
+    <div class="footer-div"></div>
+
+  </body>
+</html>

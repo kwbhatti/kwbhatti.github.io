@@ -1,0 +1,8 @@
+<div style="padding-left: 15px; padding-right: 15px">
+        <select id="dropdownOptions" style="height: 20px; padding-right: 20px">
+        <!-- dropdown-options -->
+      </select>
+      <button style="height: 20px; margin-left: 10px" onclick='goToDropDownOption()'><!-- dropdown-button-text --></button>
+      <button style="height: 20px; float:right;" onclick="document.getElementById('link').click()">Download Full Report!</button>
+      <a id="link" href="full-report.csv" download hidden></a>
+</div>
